@@ -11,9 +11,9 @@ export class HttpService {
 
 // MyDataModel
 
-  // get(): Observable<T>{
-  //   return this.http
-  //     .get<T>(this.url);
-  // }
+  get(): Observable<MyDataModel>{
+    return this.http
+      .get<MyDataModel>(this.url);
+  }
 
 }

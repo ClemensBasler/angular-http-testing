@@ -7,24 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  // title = 'app';
-  // results = '';
-  // dataset = this.getJson();
-  constructor(
-    //private http: HttpClient
-  ){
-  }
+  constructor(){ }
   ngOnInit(): void {
-    // this.http.get('http://localhost:8080/datalogger').subscribe(data => {
-    //   console.log(data);
-    //
-    // });
-  }
 
-//   getJson(): string{
-//     this.http.get('http://localhost:8080/time').subscribe(data => {
-//       console.log(data.time);
-//       this.dataset = data.time;
-//   });
-// }
+    }
+
 }
